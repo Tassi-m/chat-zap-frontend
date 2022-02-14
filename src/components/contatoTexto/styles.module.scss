@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  background-color: var(--green);
+  padding: 0 20px;
+  border-radius: 10px;
+  margin: 10px 0 0 10px;
+  position: relative;
+  align-self: flex-start;
+
+  .bottom__bubble {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 14px solid var(--green);
+    border-right: 8px solid transparent;
+    border-top: 8px solid var(--green);
+    border-bottom: 10px solid transparent;
+    left: 15px;
+    bottom: -14px;
+  }
+}
